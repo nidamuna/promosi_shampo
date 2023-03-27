@@ -41,7 +41,7 @@ const Hero = () => {
     ]
 
     return (
-        <div className="">
+        <div className="min-h-screen">
         <header className="py-4 bg-white sm:py-5" x-data="{expanded: false}">
             <div className="container px-4 mx-auto sm:px-6 lg:px-8">
                 <nav className="flex items-center justify-between">
@@ -82,15 +82,15 @@ const Hero = () => {
             </div>
         </header>
 
-      <section className="pt-12 bg-gradient-to-b from-gray-50 via-white to-gray-50">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <section className="pt-12 bg-gradient-to-b from-gray-50 via-white to-gray-50 min-h-screen">
+        <div className="px-14 mx-auto sm:px-6 lg:px-14 max-w-7xl">
           <div className="grid max-w-md grid-cols-1 mx-auto lg:grid-cols-12 gap-x-6 gap-y-8 lg:max-w-none">
             <div className="self-center lg:col-span-4">
               <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">
                 🔥🔥PROMO AWAL BULAN HARGA NEW NORMAL🔥🔥
               </h1>
               <p className="mt-5 text-base font-normal leading-7 text-gray-500">
-                Semir Dresing ALL IN ONE  kualitas premium interior & eksterior motor/mobil
+                Semir Dresing ALL IN ONE kualitas premium interior & eksterior motor/mobil
               </p>
               <div className="relative inline-flex mt-9 group">
                 <div
