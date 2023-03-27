@@ -25,7 +25,7 @@ const Premium = () => {
     ]
   return (
     <>
-        <section className="pt-0 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 flex px-10">
+        <section id="polish" className="pt-0 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 flex px-10">
             <div className='flex flex-col p-8 w-[50%] justify-center items-center'>
                <h1 className='font-bold text-4xl'>
                     Perbedaan AW PREMIUM POLISH dengan Produk X

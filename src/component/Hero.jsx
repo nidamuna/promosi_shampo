@@ -46,7 +46,7 @@ const Hero = () => {
             <div className="container px-4 mx-auto sm:px-6 lg:px-8">
                 <nav className="flex items-center justify-between">
                     <div className="flex shrink-0 items-center justify-center">
-                        <a href="#" title="" className="flex">
+                        <a href="#home" title="" className="flex">
                             <img className="w-auto h-10" src={Logo} alt="" />
                             <span className='ml-3 text-[24px] font-semibold text-gray-900 transition-all duration-200'>
                              Protection
@@ -55,19 +55,19 @@ const Hero = () => {
                     </div>
 
                     <div className="hidden md:space-x-10 md:items-center md:justify-center md:flex">
-                    <a href="#" title=""
+                    <a href="#polish" title=""
                         className="text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-200 hover:text-indigo-600">
-                        Services
+                        Premium Polish
                     </a>
 
-                    <a href="#" title=""
+                    <a href="#pricelist" title=""
                         className="text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-200 hover:text-indigo-600">
-                        Latest Collections
+                        Pricelist
                     </a>
 
-                    <a href="#" title=""
+                    <a href="#shampoo" title=""
                         className="text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-200 hover:text-indigo-600">
-                        Blog
+                        Premium Shampoo
                     </a>
                     </div>
 
@@ -82,7 +82,7 @@ const Hero = () => {
             </div>
         </header>
 
-      <section className="pt-12 bg-gradient-to-b from-gray-50 via-white to-gray-50 min-h-screen">
+      <section id='home' className="pt-12 bg-gradient-to-b from-gray-50 via-white to-gray-50 min-h-screen">
         <div className="px-14 mx-auto sm:px-6 lg:px-14 max-w-7xl">
           <div className="grid max-w-md grid-cols-1 mx-auto lg:grid-cols-12 gap-x-6 gap-y-8 lg:max-w-none">
             <div className="self-center lg:col-span-4">
