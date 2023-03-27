@@ -5,6 +5,7 @@ import Testimoni from './component/Testimoni';
 import Harga from './component/Harga';
 import Slider from './component/Slider';
 import Shampoo from './component/Shampoo';
+import Call from './component/Call';
 import Footer from './component/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Harga />
       <Slider />
       <Shampoo />
+      <Call />
       <Footer />
     </>
   );

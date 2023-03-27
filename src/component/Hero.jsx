@@ -90,7 +90,7 @@ const Hero = () => {
                 🔥🔥PROMO AWAL BULAN HARGA NEW NORMAL🔥🔥
               </h1>
               <p className="mt-5 text-base font-normal leading-7 text-gray-500">
-                Semir Dresing ALL IN ONE kualitas premium interior & eksterior motor/mobil
+                Semir Dresing ALL IN ONE kualitas premium interior & eksterior motor maupun mobil
               </p>
               <div className="relative inline-flex mt-9 group">
                 <div
