@@ -26,23 +26,23 @@ const Shampoo = () => {
 
   return (
     <>
-       <section id="shampoo" className="pt-10 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 flex px-10">
-            <div className='flex flex-col p-8 w-[50%] justify-start items-start'>
-               <h1 className='font-bold text-4xl'>
+       <section id="shampoo" className="pt-10 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 flex flex-col md:flex-row px-10">
+            <div className='flex flex-col p-0 md:p-8 w-full md:w-[50%] justify-start items-start'>
+               <h1 className='font-bold text-2xl md:text-4xl'>
                     Perbedaan AW PREMIUM POLISH dengan Produk X
                </h1>
-               <img src={Shampo} alt="produk x" className='h-[400px] mt-10 z-30'/>
+               <img src={Shampo} alt="produk x" className='h-[200px] md:h-[400px] mt-10 z-30'/>
                <video
                     loop
                     autoPlay
                     muted
-                    className="w-full h-[400px] -mt-[400px]"
+                    className="w-full h-[200px] md:h-[400px] -mt-[200px] md:-mt-[400px]"
                 >
                     <source src={vid} type="video/mp4" />
                     "Your browser does not support the video tag"
                 </video>
             </div>
-            <div className='flex flex-row p-8 w-[50%] justify-start items-center'>
+            <div className='flex flex-row p-0 md:p-8 w-full md:w-[50%] justify-start items-center'>
                 <ul>
                     {data.map((i)=> (
                         <li className='flex flex-col mb-3 font-semibold'>
