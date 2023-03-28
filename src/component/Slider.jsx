@@ -19,12 +19,12 @@ const Slider = () => {
 
   return (
     <>
-        <section className="relative inline-flex pt-12 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 px-10 justify-start items-start">
+        <section className="relative inline-flex flex-col md:flex-row pt-12 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 px-10 justify-start items-start">
             <div
                 className="absolute transitiona-all duration-1000 opacity-70 inset-0 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200">
             </div>
-            <div className="relative inline-flex flex-col w-[70%] px-10 font-bold">
-                <h1 className="text-3xl">
+            <div className="relative inline-flex flex-col w-full md:w-[70%] px-0 md:px-10 font-bold">
+                <h1 className="text-xl md:text-3xl">
                     Rawatlah Kendaraan Anda Seperti Anda Menikmati Setiap Perjalanannya
                 </h1>
                 <video
@@ -37,7 +37,7 @@ const Slider = () => {
                     "Your browser does not support the video tag"
                 </video>
             </div>
-            <div className="relative inline-flex w-[30%] px-10 mt-16 mr-14">
+            <div className="relative inline-flex w-full md:w-[30%] px-0 md:px-10 mt-3 md:mt-16 mr-14">
                 <img src={images[currentIndex]} alt="slider" className="relative inline-flex w-auto h-[500px] object-cover" />
                 <div className="absolute inset-0 flex justify-between items-center">
                     <button 
