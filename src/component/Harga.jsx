@@ -9,17 +9,17 @@ const Harga = () => {
             <h1 className='font-bold text-4xl w-full text-center'>
                 Tersedia Juga :
             </h1>
-            <ul className='flex w-full justify-between items-center px-14 mt-8 font-semibold'>
+            <ul className='flex md:flex-row flex-col w-full justify-center md:justify-between items-center text-[12px] md:text-[16px] px-4 md:px-14 mt-8 font-semibold'>
                 {color.map((i, index) => (
                     <li key={index} 
-                        className={`p-3 rounded-md shadow-xl`}
+                        className={`p-3 rounded-md shadow-xl w-full md:w-auto mb-5 md:mb-0`}
                         style={{ backgroundColor: i }}
                     >
                         {data[index]}
                     </li>
                 ))}
             </ul>
-            <div className='grid grid-cols-3 gap-y-8 gap-x-10 w-[90%]'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-y-1 gap-x-0 md:gap-y-8 md:gap-x-10 w-[90%]'>
                 {/* platinum */}
                 <div className='flex flex-col justify-center items-center mt-10'>
                     <div className='bg-yellow-500 p-2 font-semibold w-[100%] text-center rounded-t-xl'>
@@ -90,7 +90,7 @@ const Harga = () => {
                         <p>500 ml</p>
                         <p>24.000</p>
                     </div>
-                    <div className='flex justify-between items-center w-[100%] mt-3 border-b-2 text-white'>
+                    <div className='md:flex justify-between items-center w-[100%] mt-3 text-white hidden'>
                         <p>500 ml</p>
                         <p>24.000</p>
                     </div>
