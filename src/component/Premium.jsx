@@ -25,7 +25,7 @@ const Premium = () => {
     ]
   return (
     <>
-        <section id="polish" className="pt-0 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 flex md:flex-row flex-col px-10">
+        <section id="polish" className="pt-0 lg:min-h-0 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 flex md:flex-row flex-col px-10">
             <div className='flex flex-col p-8 w-full md:w-[50%] justify-center items-center'>
                <h1 className='font-bold text-2xl md:text-4xl'>
                     Perbedaan AW PREMIUM POLISH dengan Produk X
@@ -40,7 +40,7 @@ const Premium = () => {
                             {i.name}</li>
                     ))}
                </ul>
-               <div className='absolute h-screen hidden md:flex justify-end items-end w-[40%] pb-20 mt-0'>
+               <div className='absolute h-screen xl:hidden hidden md:flex lg:flex justify-end items-end w-[40%] pb-20 mt-0'>
                     <div className='-skew-y-12 bg-red-700 rounded-xl p-6 h-[145px] w-[250px] text-center text-white font-bold text-xl md:text-2xl flex flex-col'>
                         <span className='flex gap-3'>
                             Dari <span className='line-through text-black'>Rp 160.000</span>
@@ -49,7 +49,7 @@ const Premium = () => {
                         <span className='text-2xl md:text-4xl'>Rp 135.000</span>
                     </div>
                 </div>
-                <div className='md:hidden flex justify-end items-end w-[100%] mt-20'>
+                <div className='md:hidden lg:hidden xl:flex flex justify-center items-center w-[100%] mt-20'>
                     <div className='-skew-y-12 bg-red-700 rounded-xl p-6 h-[145px] w-[250px] text-center text-white font-bold text-xl md:text-2xl flex flex-col'>
                         <span className='flex gap-3'>
                             Dari <span className='line-through text-black'>Rp 160.000</span>

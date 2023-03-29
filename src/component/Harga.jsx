@@ -5,7 +5,7 @@ const Harga = () => {
     const data = ["SHAMPO SNOW WASH", "PEMBERSIH INTERIOR", "PEMBERSIH KERAK KRAMIK", "GLASS CLEANER(PEMBERSIH JAMUR KACA)"]
   return (
     <>
-        <section id='pricelist' className="pt-12 min-h-screen pb-28 bg-gradient-to-b from-gray-50 via-white to-gray-50 px-10 flex flex-col justify-center items-center">
+        <section id='pricelist' className="pt-12 lg:min-h-0 min-h-screen pb-28 bg-gradient-to-b from-gray-50 via-white to-gray-50 px-10 flex flex-col justify-center items-center">
             <h1 className='font-bold text-4xl w-full text-center'>
                 Tersedia Juga :
             </h1>

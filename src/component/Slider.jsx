@@ -19,7 +19,7 @@ const Slider = () => {
 
   return (
     <>
-        <section className="relative inline-flex flex-col md:flex-row pt-12 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 px-10 justify-start items-start">
+        <section className="relative inline-flex flex-col md:flex-row pt-12 lg:min-h-0 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 px-10 justify-start items-start">
             <div
                 className="absolute transitiona-all duration-1000 opacity-70 inset-0 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200">
             </div>

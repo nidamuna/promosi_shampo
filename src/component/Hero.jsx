@@ -41,7 +41,7 @@ const Hero = () => {
     ]
 
     return (
-        <div className="min-h-screen">
+        <div className="lg:min-h-0 min-h-screen">
         <header className="py-4 bg-white sm:py-5" x-data="{expanded: false}">
             <div className="container px-4 mx-auto sm:px-6 lg:px-8">
                 <nav className="flex items-center justify-between">
@@ -82,7 +82,7 @@ const Hero = () => {
             </div>
         </header>
 
-      <section id='home' className="pt-12 bg-gradient-to-b from-gray-50 via-white to-gray-50 min-h-screen">
+      <section id='home' className="pt-12 bg-gradient-to-b from-gray-50 via-white to-gray-50 lg:min-h-0 min-h-screen">
         <div className="px-14 mx-auto sm:px-6 lg:px-14 max-w-7xl">
           <div className="grid max-w-md grid-cols-1 mx-auto lg:grid-cols-12 gap-x-6 gap-y-8 lg:max-w-none">
             <div className="self-center lg:col-span-4">

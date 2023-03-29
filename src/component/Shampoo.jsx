@@ -26,7 +26,7 @@ const Shampoo = () => {
 
   return (
     <>
-       <section id="shampoo" className="pt-10 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 flex flex-col md:flex-row px-10">
+       <section id="shampoo" className="pt-10 lg:min-h-0 min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 flex flex-col md:flex-row px-10">
             <div className='flex flex-col p-0 md:p-8 w-full md:w-[50%] justify-start items-start'>
                <h1 className='font-bold text-2xl md:text-4xl'>
                     Perbedaan AW PREMIUM POLISH dengan Produk X
